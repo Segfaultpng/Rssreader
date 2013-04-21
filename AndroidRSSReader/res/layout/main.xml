@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="72dp"
+        android:layout_weight="0.04"
+        android:background="@drawable/headerwfin" />
+
+    <ListView
+        android:id="@+id/itemlist"
+        android:layout_width="fill_parent"
+        android:layout_height="110dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1.02"
+        android:background="#62636B"
+        android:contentDescription="@drawable/background"
+        android:divider="@drawable/background"
+        android:dividerHeight="11dp" >
+    </ListView>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+
+        <android.widget.SearchView
+            android:id="@+id/searchView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+
+        <ExpandableListView
+            android:id="@+id/expandableListView1"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_alignParentRight="true" >
+
+        </ExpandableListView>
+
+    </RelativeLayout>
+
+</LinearLayout>

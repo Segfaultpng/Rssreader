@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="72dp"
+        android:layout_weight="0.04"
+        android:background="@drawable/headerwfin"
+  />
+
+    <TextView
+        android:id="@+id/storybox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0.47"
+        android:autoLink="all"
+        android:background="#62636B"
+        android:text="story goes here ...." />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
+    <LinearLayout
+        android:layout_width="28dp"
+        android:layout_height="wrap_content" >
+
+        <ExpandableListView
+            android:id="@+id/expandableListView1"
+            android:layout_width="12dp"
+            android:layout_height="18dp" >
+        </ExpandableListView>
+    </LinearLayout>
+
+</LinearLayout>
